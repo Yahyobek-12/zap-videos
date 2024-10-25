@@ -52,3 +52,7 @@ form {
   background: rgba(255, 255, 255, 0.037);
   backdrop-filter: blur(20px);
 }
+
+footer {
+  z-index: 10;
+}
