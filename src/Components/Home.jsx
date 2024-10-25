@@ -13,7 +13,7 @@ const Home = () => {
                     <h2 className="uppercase font-bold text-grayed xs:text-xl text-md text-center" style={{ wordSpacing: '5px' }}>fast than youtube</h2>
                     <h1 id="home-gradient-txt" className="text-center md:text-7xl xs:text-5xl sx:text-3xl text-2xl font-bold mt-4">Search anything with ZAP</h1>
                     <div className="flex items-center justify-center text-center mt-5 px-3">
-                        <p className="max-w-[600px] text-gray-400 md:text-lg text-[15px]">Better ZAP Community offers hundreds of technical guides and tutorials, Q&As, comparisons and more.</p>
+                        <p className="max-w-[600px] text-gray-400 md:text-lg text-[15px]">Zap Videos is a platform where creators share exciting, unique, and engaging content to inspire everyone.</p>
                     </div>
                     <div className="flex items-center justify-center mt-4">
                         <form className="w-[80%] h-[60px] rounded-lg border-[0.5px] border-gray-800 flex items-center justify-between px-2">
