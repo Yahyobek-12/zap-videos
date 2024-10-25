@@ -1,6 +1,6 @@
 import { IoIosSearch } from "react-icons/io";
 import { BsSlashSquare } from "react-icons/bs";
-import zapLogo from '../Images/z-png.png'
+import zapLogo from '../Images/zap-png.png'
 
 const Home = () => {
     return (
@@ -8,7 +8,7 @@ const Home = () => {
             <div id="home-blured" className="w-[100%] h-[100%] flex items-center justify-center">
                 <div>
                     <div className="flex items-center justify-center mb-6">
-                        <img src={zapLogo} alt="zap-logo" className="md:w-[150px] w-[80px] md:h-[150px] h-[80px]" />
+                        <img src={zapLogo} alt="zap-logo" className="md:w-[150px] w-[80px] md:h-[130px] h-[60px]" />
                     </div>
                     <h2 className="uppercase font-bold text-grayed xs:text-xl text-md text-center" style={{ wordSpacing: '5px' }}>fast than youtube</h2>
                     <h1 id="home-gradient-txt" className="text-center md:text-7xl xs:text-5xl sx:text-3xl text-2xl font-bold mt-4">Search anything with ZAP</h1>
