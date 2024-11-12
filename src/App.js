@@ -1,15 +1,16 @@
 import React from 'react'
-import { Navbar, Home, Footer } from './constants'
+import { Navbar, Home, Footer, Features } from './constants'
 import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
+    <div id='dad' className='relative'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/features' element={<Features />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

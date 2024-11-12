@@ -9,43 +9,61 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 3px;
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0C2D73;
+}
+
 @font-face {
   font-family: helvetica;
   src: url(./Fonts/Helvetica.ttf);
 }
 
+@font-face {
+  font-family: GT3;
+  src: url(./Fonts/GT-3.otf);
+}
+
+@font-face {
+  font-family: GT4;
+  src: url(./Fonts/GT-4.otf);
+}
+
 body {
-  background: #0B0C14;
+  background: url(./Images/zap_image.webp);
+  background-size: cover;
 }
 
 #nav {
   z-index: 10;
 }
 
-/* #nav-link {
-  background: #fff2;
-  backdrop-filter: blur(20px);
-  box-shadow: inset -2px -2px 3px #fff2;
+nav ul a {
+  
 }
 
-#nav-link:hover {
-  opacity: 0.7;
-} */
-
-#home {
-  background: url(./Images/zap_image.webp);
-  background-size: cover;
-}
-
-#home-blured {
+#dad {
   backdrop-filter: blur(50px);
 }
 
-#home-gradient-txt {
+#home-gradient-txt,
+#trailers-gradient {
   font-family: helvetica;
-  background: linear-gradient(to right, #FAFBFC, #939DB8);
-  -webkit-background-clip: text;
+  background: linear-gradient(to bottom, #FAFBFC, #939DB8);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#features-h1 {
+  font-family: GT3;
+}
+
+#pricing-features {
+  font-family: GT4;
 }
 
 form {

@@ -1,11 +1,13 @@
 import { IoIosSearch } from "react-icons/io";
 import { BsSlashSquare } from "react-icons/bs";
 import zapLogo from '../Images/zap-png.png'
+import Footer from '../Components/Footer'
 
 const Home = () => {
     return (
-        <div id="home" className="w-[100%] h-[100vh]">
-            <div id="home-blured" className="w-[100%] h-[100%] flex items-center justify-center">
+        <>
+            <div id="home" className="w-[100%] h-[100vh]">
+            <div className="w-[100%] h-[100%] flex items-center justify-center">
                 <div>
                     <div className="flex items-center justify-center mb-6">
                         <img src={zapLogo} alt="zap-logo" className="md:w-[150px] w-[80px] md:h-[130px] h-[60px]" />
@@ -25,6 +27,8 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
     )
 }
 
