@@ -6,7 +6,7 @@ import { Footer } from '../constants'
 
 const SecF2 = () => {
   return (
-    <div className="w-[100%] lg:h-[100vh] sm:h-[200vh] h-[230vh] bg-black xs:px-4 px-2">
+    <div className="w-[100%] lg:h-[100vh] sm:h-[200vh] h-[200vh] bg-black xs:px-4 px-2">
         <div className="text-center lg:pt-0 pt-[35rem]">
           <h1 className="text-white text-5xl text-center">See More ZAP Features</h1>
           <p className="text-gray-400 sm:text-xl text-[13px] mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eligendi, eum <br /> ut dolorem assumenda perspiciatis ex voluptates fugit recusandae amet!</p>
