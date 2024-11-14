@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Home, Footer, Features } from './constants'
+import { Navbar, Home, Features } from './constants'
 import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
@@ -10,7 +10,6 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/features' element={<Features />} />
       </Routes>
-      {/* <Footer /> */}
     </div>
   )
 }

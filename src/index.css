@@ -36,16 +36,12 @@
 body {
   background: url(./Images/zap_image.webp);
   background-size: cover;
+  position: relative;
 }
 
 #nav {
   z-index: 10;
 }
-
-nav ul a {
-  
-}
-
 #dad {
   backdrop-filter: blur(50px);
 }

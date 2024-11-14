@@ -1,7 +1,7 @@
 import { IoIosSearch } from "react-icons/io";
 import { BsSlashSquare } from "react-icons/bs";
 import zapLogo from '../Images/zap-png.png'
-import Footer from '../Components/Footer'
+import Footer from "./Footer";
 
 const Home = () => {
     return (
