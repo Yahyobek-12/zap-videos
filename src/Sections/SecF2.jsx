@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const SecF2 = () => {
   return (
-    <div className="w-[100%] lg:h-[100vh] sm:h-[220vh] h-[260vh] bg-black xs:px-4 px-2">
+    <div className="w-[100%] lg:h-[100vh] sm:h-[200vh] h-[260vh] bg-black xs:px-4 px-2">
         <div className="text-center lg:pt-0 pt-[35rem]">
           <h1 className="text-white text-5xl text-center">See More ZAP Features</h1>
           <p className="text-gray-400 sm:text-xl text-[13px] mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eligendi, eum <br /> ut dolorem assumenda perspiciatis ex voluptates fugit recusandae amet!</p>
@@ -40,7 +40,7 @@ const SecF2 = () => {
               </div>
               <div className="w-[100%] h-[230px] bg-[#161B1D] border-t-[3px] border-[#2B353C] rounded-xl overflow-hidden mt-6 py-4 px-4">
                 <h1 className='text-white xs:text-3xl text-[18px]'>Rating & Full Movies</h1>
-                <p className='text-gray-300 mt-3 xl:text-[16px] sm:text-[15px] text-[12px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quibusdam eius nemo odio provident culpa obcaecati praesentium voluptas, a ratione rerum ducimus ut eos vero atque minus tempora deserunt adipisci ipsum doloribus iure numquam</p>
+                <p className='text-gray-300 mt-3 xl:text-[16px] sm:text-[15px] text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quibusdam eius nemo odio provident culpa obcaecati praesentium voluptas, a ratione rerum ducimus ut eos vero atque minus tempora deserunt adipisci ipsum doloribus iure numquam</p>
                 <Link className='w-[100%] h-[35px] bg-blue-500 rounded-md mt-3 flex items-center justify-center text-white hover:opacity-75'>See Features</Link>
                 <div className="w-[80px] h-[80px] bg-gray-300 blur-[85px]"></div>
               </div>
